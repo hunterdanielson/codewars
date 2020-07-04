@@ -5,5 +5,6 @@ function persistence(num) {
     while(num.toString().length !== 1) {
       num = num.toString().split('').reduce((acc, val) => acc * val)
       i++
+    }
     return i;
   }
